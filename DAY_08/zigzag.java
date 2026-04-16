@@ -20,8 +20,8 @@ class Solution {
             }
         }
         StringBuilder res=new StringBuilder();
-        for(int i=0;i<sb.length;i++){
-            res.append(sb[i]);
+        for (StringBuilder row : sb) {
+            res.append(row);
         }
         return res.toString();
     }
